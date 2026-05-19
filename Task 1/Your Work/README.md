@@ -485,119 +485,88 @@ Dataset → Preprocessing → Feature Selection →Train-Test Split → Model Tr
 
 ----------
 
-# 6. Appendices
+## 6. Appendices
 
-## 6.1 Hardware Requirements
+### 6.1 Hardware Requirements
 
-Component
-
-Minimum Requirement
-
-RAM
-
-4 GB
-
-Processor
-
-Intel i3 or equivalent
-
-Storage
-
-500 MB free space
+-   **RAM:** Minimum 4 GB
+    
+-   **Processor:** Intel i3 or equivalent
+    
+-   **Storage:** Minimum 500 MB free space
+    
 
 ----------
 
-## 6.2 Software Requirements
+### 6.2 Software Requirements
 
-Software
-
-Purpose
-
-Python 3.x
-
-Programming language
-
-pandas
-
-Data manipulation
-
-numpy
-
-Numerical operations
-
-matplotlib
-
-Plotting
-
-seaborn
-
-Statistical visualization
-
-scikit-learn
-
-Machine learning
+-   **Python 3.x** → Programming language
+    
+-   **pandas** → Data manipulation
+    
+-   **numpy** → Numerical operations
+    
+-   **matplotlib** → Plotting and graph visualization
+    
+-   **seaborn** → Statistical visualization
+    
+-   **scikit-learn** → Machine learning model training and evaluation
+    
 
 ----------
 
-## 6.3 Dataset Requirements
+### 6.3 Dataset Requirements
 
-The dataset must contain:
+The dataset must contain the following fields:
 
-Field
-
-Description
-
-Time
-
-Time slot
-
-Day
-
-Day of week
-
-Weather
-
-Weather condition
-
-Lunch_Time
-
-Lunch schedule indicator
-
-Students
-
-Student footfall count
-
-Rush_Level
-
-Rush category
+-   **Time** → Time slot of canteen visit
+    
+-   **Day** → Day of the week
+    
+-   **Weather** → Weather condition
+    
+-   **Lunch_Time** → Lunch schedule indicator
+    
+-   **Students** → Student footfall count
+    
+-   **Rush_Level** → Rush category (Low / Medium / High)
+    
 
 ----------
 
 # 7. Results Summary
 
-Model
+### Model Evaluation Results
 
-MAE
+-   **Linear Regression**
+    
+    -   MAE: 13.91
+        
+    -   MSE: 292.24
+        
+    -   R² Score: 0.52
+        
+-   **Random Forest Regressor**
+    
+    -   MAE: 5.00
+        
+    -   MSE: 41.55
+        
+    -   R² Score: 0.93
+        
 
-MSE
+----------
 
-R² Score
+### Best Performing Model
 
-Linear Regression
+-   Random Forest Regressor
+    
 
-13.91
+### Most Influential Features
 
-292.24
-
-0.52
-
-Random Forest Regressor
-
-5.00
-
-41.55
-
-0.93
+-   Time Slot
+    
+-   Lunch_Time
 
 ### Best Performing Model
 
