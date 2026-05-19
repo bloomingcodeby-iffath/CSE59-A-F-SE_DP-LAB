@@ -140,27 +140,40 @@ The system may later evolve into a web-based or real-time prediction platform in
 
 ## 2.3 User Classes and Characteristics
 
-User Type
+### Student Researchers
 
-Characteristics
+* Analyze canteen footfall data
+* Experiment with machine learning models
+* Study prediction accuracy and visualization outputs
+* Perform research and analytical tasks
 
-Student Researchers
+---
 
-Analyze data and experiment with ML models
+### Developers
 
-Developers
+* Maintain and improve the system
+* Update machine learning models and features
+* Fix bugs and optimize performance
+* Manage system integration and deployment
 
-Maintain and improve the system
+---
 
-University Administration
+### University Administration
 
-Use predictions for operational decisions
+* Use prediction results for operational decision-making
+* Monitor canteen rush patterns
+* Improve crowd and food management
+* Optimize resource allocation during peak hours
 
-Data Analysts
+---
 
-Interpret visualizations and metrics
+### Data Analysts
 
-----------
+* Interpret statistical visualizations and metrics
+* Analyze trends and behavioral patterns
+* Compare model performance results
+* Generate analytical insights from prediction outputs
+
 
 ## 2.4 Operating Environment
 
