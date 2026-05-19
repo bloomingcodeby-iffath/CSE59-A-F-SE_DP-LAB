@@ -15,10 +15,7 @@ The system is designed to analyze historical canteen footfall data and predict s
 # Version History
 
 - **Version 1.0**: Initial Draft
-- **Version 1.1**: Added ML workflow and evaluation metrics
-- **Version 1.2**: Added system evolution and deployment considerations
-
-
+- 
 # 1. Introduction
 
 ## 1.1 Purpose
