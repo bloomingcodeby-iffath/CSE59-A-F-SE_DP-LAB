@@ -398,6 +398,7 @@ Where:
 ----------
 
 # 4. System Models
+<img src="MU.png">
 
 ## 4.1 Workflow Model
 
