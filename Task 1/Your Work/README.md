@@ -48,29 +48,17 @@ This document follows IEEE SRS documentation standards.
 
 ## 1.3 Intended Audience and Reading Suggestions
 
-Audience
+- Audience:Purpose
 
-Purpose
+- Developers: Understand implementation requirements
+  
+- Data Scientists: Understand ML workflow and modeling
 
-Developers
+- Project Supervisors: Review project objectives and outputs
 
-Understand implementation requirements
+- Testers & QA Teams: Validate system functionality and accuracy
 
-Data Scientists
-
-Understand ML workflow and modeling
-
-Project Supervisors
-
-Review project objectives and outputs
-
-Testers & QA Teams
-
-Validate system functionality and accuracy
-
-Researchers
-
-Analyze predictive modeling approach
+- Researchers: Analyze predictive modeling approach
 
 ----------
 
