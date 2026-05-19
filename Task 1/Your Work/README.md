@@ -15,7 +15,7 @@ The system is designed to analyze historical canteen footfall data and predict s
 # Version History
 
 - **Version 1.0**: Initial Draft
-- 
+
 # 1. Introduction
 
 ## 1.1 Purpose
