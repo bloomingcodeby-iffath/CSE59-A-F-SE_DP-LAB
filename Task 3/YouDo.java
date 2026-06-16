@@ -1,4 +1,4 @@
-public class User{
+ class User{
 
     private String username;
     private String email;
@@ -17,7 +17,7 @@ public class User{
     }
 }
 
-public class EmailValidator {
+ class EmailValidator {
     public static boolean isValid(String email){
         if(email!=null && email.contains("@")){
             return true;
@@ -27,7 +27,7 @@ public class EmailValidator {
         return false;
     }
 }
-public class UserRepository {
+ class UserRepository {
     public void save(User user){
         System.out.println("connecting to database..");
         System.out.println(
