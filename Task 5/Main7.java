@@ -1,33 +1,21 @@
-interface Printer{
-    void printDocument();
+interface HttpService{
+    void handGttpRequest();
 }
-interface Scanner{
-    void scanDocument();
+interface DatabaseManager{
+    void executeSqlStatemet();
 }
-interface FaxMachine{
-    void faxDocument();
+interface ContainerOps{
+    void restartDockerConatiner();
 }
-class MultiFunctionCopier implements Printer, Scanner, FaxMachine{
-    public void printDocument(){
-        System.out.println("Printing...");
+class WebController implements HttpService{
+    public void handGttpRequest(){
+        System.out.println("Routing traffic to endpoint");
     }
-    public void scanDocument(){
-        System.out.println("Scanning..");
-    }
-    public void faxDocument(){
-        System.out.println("faxing..");
-    }
+}
+public class Main6 {
+    public static void main(String[] args) {
+        WebController controller=new WebController();
+        controller.handGttpRequest();
 
-}
-class BasicPrinter implements Printer{
-    public void printDocument(){
-        System.out.println("printing...");
     }
-}
-public class Main1 {
-
-     public static void main(String[] args) {
-        BasicPrinter printer = new BasicPrinter();
-        printer.printDocument();
-     }
 }
